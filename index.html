@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   
+    <div class="container">
+        <h1>Caculator</h1>
+        <input type="button" value=7 onclick="myFunc(7)">
+        <input type="button" value=8 onclick="myFunc(8)">
+        <input type="button" value=9 onclick="myFunc(9)">
+        <input class="operator" type="button" value="+" onclick="myFunc('+')">
+        <br>
+        <input type="button" value=4 onclick="myFunc(4)">
+        <input type="button" value=5 onclick="myFunc(5)">
+        <input type="button" value=6 onclick="myFunc(6)">
+        <input class="operator" type="button" value="-" onclick="myFunc('-')">
+        <br>
+        <input type="button" value=1 onclick="myFunc(1)">
+        <input type="button" value=2 onclick="myFunc(2)">
+        <input type="button" value=3 onclick="myFunc(3)">
+        <input class="operator" type="button" value="*" onclick="myFunc('*')">
+        <br>
+        <input type="button" value=0 onclick="myFunc(0)">
+        <input class="operator" type="button" value="C" onclick="clearAll()">
+        <input class="operator" type="button" value="÷" onclick="myFunc('÷')">
+        <input class="operator" type="button" value="=" onclick="reSult()">
+        <br>
+        <h2>Result:</h2>
+        <div id="box">
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
